@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Iura-Radulov/goit-js-hw-08.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Iura Radulov <iura.radulov@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Iura-Radulov/goit-js-hw-08/issues"
@@ -24,5 +24,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.10.3"
   }
 }
