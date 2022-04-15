@@ -13,8 +13,9 @@ populateTextarea();
 function onFormSubmit(evt) {
     evt.preventDefault();
     evt.currentTarget.reset();
-    localStorage.removeItem("feedback-form-state");
-    console.log(formData);
+    const savedData = localStorage.getItem("feedback-form-state");
+    console.log(JSON.parse(savedData));
+    localStorage.removeItem("feedback-form-state");  
     formData = {};
 }
 
